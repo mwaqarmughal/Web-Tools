@@ -1,0 +1,26 @@
+.overflow{
+    overflow: hidden;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+}
+.right{
+    float: right;
+    font-size: 3.5em;
+    /* height: 1.5em; */
+}
+.box{
+    height: 100px;
+}
+.column{
+    width: 40%;
+}
+.aqua{
+    background-color: aqua;
+}
+@media screen and (max-width: 800px){
+    .column {
+        width: 100%;
+        background-color: teal;
+    }
+}
