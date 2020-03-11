@@ -1,0 +1,84 @@
+
+     .division {
+         float: left;
+         height: 700px;
+         width: 50%;
+         text-align: left;
+         align-items: center;
+         }
+     .divisions {
+         float: right;
+         height: 700px;
+         width: 50%;
+        }
+     .divisionstable {
+         float: right;
+         height: 90%;
+         background-color: white;
+         width: 90%;
+         margin: 5%;
+         }
+     #first {
+         background-color: blueviolet;
+         border: 2px solid white;
+         height: 700px;
+         width: 1514px;
+          }
+     #third {
+         font-size: x-large;
+         align-items: center;
+         text-align: left;
+         color: darkmagenta;
+         background-color: white;
+         
+        }
+     .para {
+        font-size: x-large;
+        color: white;
+        }
+    .textbox {
+        border: 1px solid aqua;
+    }
+    label {
+        font-weight: bold;
+        float: left;
+        font-size: 15px;
+        width: 158px;
+    vertical-align: middle;
+    }
+    form {
+        
+        margin-left: 30px;
+        padding-top: 10px;
+        padding-left: 235px;
+        height: 200px;
+    }
+    .button {
+        background-color: aqua;
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  text-decoration: none;
+  margin: 10px 2px;
+  width: 158px;
+  cursor: pointer;
+    }
+    #alpha {
+        text-align: center;
+        font-size: small;
+        font-style: italic;
+        margin-top: 100px;    
+    }
+    span {
+        background-color: aqua;
+        padding: 5px;
+        padding-right: 7px;
+        color: white;
+        font-weight: bold;
+    }
+    .centerr {
+        background-color: white;
+        width: 100px;
+        height: 50px;
+        color: darkmagenta;
+    }

@@ -1,0 +1,101 @@
+body{
+    background-image: url(./network.jpg);
+    /* background-repeat: ; */
+    background-size: 100%;
+    color: white;
+}
+#first{
+    margin-top: 20px;
+    margin-right: 30px;
+    float: right;
+}
+ul{
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 0px;
+    margin-top: 0px;    
+}
+li{
+    padding: 20px;
+    display: inline;
+    margin: 0px;
+    padding-right: 7px;
+}
+li a{
+    color: white;
+    font-style: unset;
+    text-decoration: none;
+    font-size: large;    
+}
+.button{
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 12px 2px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.button2{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 12px 2px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+#big{
+    color: white;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding-right: 500px;
+}
+#small{
+    padding-left: 0px;
+    color: white;
+    font-weight: bold;   
+}
+#second{
+    padding-right: 90px;
+}
+sub{
+    font-size: 15px;
+}
+#main{
+    position: relative;
+    top: 300px;
+    width: 100%;
+    /* align-content: center; */
+    flex: column;
+}
+#search{
+    color: white;
+    width: 500px;
+    background-color: transparent;
+    height: 24px;
+    border: 1px solid gray;
+    margin-left: 420px;   
+}
+.left{
+    margin-left: 500px;
+}
+.checkbox{
+    margin-left: 50px;
+}
+h2{
+    margin-left: 520px;
+}
+
+
+
+
+
+
+

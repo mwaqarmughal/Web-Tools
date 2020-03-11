@@ -1,0 +1,18 @@
+/* body{
+    padding: 0px;
+    margin: 0px;
+} */
+.hea {
+    font-weight: bolder;
+}
+.backg{
+    background-image: url("./images.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+}
+.cardimg{
+    width: 50px;
+}
+.pad{
+    margin: 10px;
+}
