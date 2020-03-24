@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./myjavascript.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Add and Remove</title>
+  </head>
+  <body>
+    <input type="text" id="adder" />
+    <button class="btn btn-primary" id="mybtn">Add</button>
+    <button class="btn btn-primary" id="myupdate">update</button>
+    <ul id="list">
+      <li>
+        eat
+        <button class="btn btn-primary" onclick="handleDelete(event)">
+          Delete
+        </button>
+        <button class="btn btn-primary" onclick="">
+          edit
+        </button>
+      </li>
+      <li>
+        sleep
+        <button class="btn btn-primary" onclick="handleDelete(event)">
+          Delete
+        </button>
+        <button class="btn btn-primary" onclick="">
+          edit
+        </button>
+      </li>
+      <li>
+        play
+        <button class="btn btn-primary" onclick="handleDelete(event)">
+          Delete
+        </button>
+        <button class="btn btn-primary" onclick="">
+          edit
+        </button>
+      </li>
+    </ul>
+  </body>
+</html>
