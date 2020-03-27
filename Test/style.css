@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#bgDiv {
+  height: 400px;
+  background-image: url("https://www.w3schools.com/w3css/img_lights.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+#first {
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+#second {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+#third {
+  color: white;
+  text-align: center;
+  background-color: red;
+  margin-left: 700px;
+}
+.cen {
+  text-align: center;
+}
+.small {
+  width: 15%;
+  padding-left: 42%;
+}
+.card {
+  width: 25%;
+}
+#redish {
+  height: 120px;
+  background-color: darkred;
+  width: 100%;
+  float: right;
+}
+.widt {
+  float: left;
+  width: 33.3%;
+}
+.card2{
+    width: 20%;
+}
