@@ -1,0 +1,11 @@
+This is my file containing the random data received from server.
+1)  ali
+2)  Akbar
+3)  amjad
+4)  Asghar
+5)  anwar
+6)  ahmed
+7)  akram
+8)  anwaar
+9)  arslan
+10)  Akbar
