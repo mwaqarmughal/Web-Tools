@@ -11,36 +11,83 @@
   </head>
   <body class="container">
     <h1>Manipulation of data using api client</h1>
-   <div id="addition">
-    <div class="form-group">
-      <label for="title">Title</label>
-      <input
-        type="text"
-        class="form-control"
-        name="title"
-        id="title"
-        aria-describedby="titleHelp"
-        placeholder="Enter the title of recepie"
-      />
-      <small id="titleHelp" class="form-text text-muted">Enter the Title</small>
-    </div>
-    <div class="form-group">
-      <label for="body">Body</label>
-      <input
-        type="text"
-        class="form-control"
-        name="body"
-        id="body"
-        aria-describedby="bodyHelp"
-        placeholder="Enter details"
-      />
-      <small id="bodyHelp" class="form-text text-muted"
-        >Enter recepie details</small
-      >
-    </div>
-</div>
 
-    <button id="addRecep" class="btn btn-info">Add Recepies</button>
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary btn-lg"
+      data-toggle="modal"
+      data-target="#modelAdd"
+    >
+      Add Recepie
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modelAdd"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modelTitleId"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Add New Recepie</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input
+                type="text"
+                class="form-control"
+                name="title"
+                id="title"
+                aria-describedby="titleHelp"
+                placeholder="Enter the title of recepie"
+              />
+              <small id="titleHelp" class="form-text text-muted"
+                >Enter the Title</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="body">Body</label>
+              <input
+                type="text"
+                class="form-control"
+                name="body"
+                id="body"
+                aria-describedby="bodyHelp"
+                placeholder="Enter details"
+              />
+              <small id="bodyHelp" class="form-text text-muted"
+                >Enter recepie details</small
+              >
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button id="addRecep" class="btn btn-info">Add Recepies</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div id="recepies">Loading...</div>
 
     <!-- Modal -->

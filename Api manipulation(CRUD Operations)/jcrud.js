@@ -54,11 +54,10 @@ function handleAdd() {
     data: { title, body }, // also like data:{title:title,body:body},
     success: function(response) {
       //   console.log(response);
+      $("#body").val("");
+      $("#title").val("");
+      $("#modelAdd").modal("hide");
       ajaxcalls();
-      var body = $("#addition #body");
-      body.val("");
-      var tii = $("#addition #title");
-      tii.val("");
     }
   });
 }
